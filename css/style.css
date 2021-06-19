@@ -6,7 +6,7 @@
 
 @media (min-width: 481px) {
     .carta-mitad img {
-        height: 98vh;
+        width: 30vw;
         margin: 1vh 1px;
     }
 }
