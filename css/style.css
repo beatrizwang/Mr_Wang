@@ -1,0 +1,30 @@
+@media (max-width: 480px) {
+    .carta-mitad img {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 481px) {
+    .carta-mitad img {
+        height: 98vh;
+        margin: 1vh 1px;
+    }
+}
+
+
+body {
+    background-color: darkgray;
+    margin: 0;
+}
+
+#carta-imagenes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.carta-mitad {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
